@@ -1,0 +1,97 @@
+/*
+Document   : katra
+Created on : Jul 19, 2012, 3:37:25 PM
+Author     : BruceDavidson@darkoverlordofdata.com
+Description:
+Purpose of the stylesheet follows.
+*/
+@media -sass-debug-info{filename{font-family:}line{font-family:\000039}}
+.katra-border {
+  border-style: solid;
+  border-width: 1;
+  border-color: #cdcdcd;
+}
+
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000315}}
+.katra-input-panel {
+  width: 650px;
+  vertical-align: top;
+  height: 160px;
+  overflow: scroll;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000323}}
+.katra-output-panel {
+  width: 650px;
+  vertical-align: top;
+  height: 290px;
+  overflow: scroll;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000332}}
+.katra-logger-panel {
+  width: 650px;
+  vertical-align: top;
+  height: 290px;
+  overflow: scroll;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000341}}
+.katra-source {
+  /*display: none;*/
+  font-size: 13px;
+}
+
+/* Runtime UI console styles */
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000348}}
+div.notice {
+  background-color: cornsilk;
+}
+
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000352}}
+div.runtime {
+  font-size: 14px;
+  /* margin-top:1em; */
+  font-family: monospace;
+}
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000357}}
+div.runtime div.jquery-console-inner {
+  width: 625px;
+  height: 50px;
+  background: #efefef;
+  padding: 0.5em;
+  overflow: scroll;
+}
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000364}}
+div.runtime div.jquery-console-prompt-box {
+  color: #444;
+  font-family: monospace;
+}
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000368}}
+div.runtime div.jquery-console-focus span.jquery-console-cursor {
+  background: #444;
+  color: #eee;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000372}}
+div.runtime div.jquery-console-message-error {
+  color: #ef0505;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0.1em;
+}
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000378}}
+div.runtime div.jquery-console-message-success {
+  color: #187718;
+  font-family: monospace;
+  padding: 0.1em;
+}
+@media -sass-debug-info{filename{font-family:}line{font-family:\0000383}}
+div.runtime span.jquery-console-prompt-label {
+  font-weight: bold;
+}
